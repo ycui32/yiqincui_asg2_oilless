@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Oilless</string>
+    <string name = "English">English</string>
+    <string name = "French">French</string>
+    <string name ="Map">Map</string>
+    <string name="pressed_title">Warning</string>
+    <string name="back_pressed_message">Do you want to exit the program?</string>
+    <string name="change_lan_message">Do you want to change the Language?</string>
+    <string name="title_activity_french">Oilless/French</string>
+    <string name="title_activity_english">Oilless/English</string>
+
+    <string name="step1">First : Download the Zip File</string>
+    <string name="step2">Second : After Download, Un-Zip</string>
+    <string name="step3">Third : After Un-Zip, View the Map</string>
+</resources>

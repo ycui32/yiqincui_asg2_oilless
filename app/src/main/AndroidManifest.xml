@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chris.assignment" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/launcher_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <set xmlns:android="http://schemas.android.com/apk/res/android" >
+                <alpha
+                    android:duration="300"
+                    android:fromAlpha="1.0"
+                    android:toAlpha="0.5" >
+                </alpha>
+
+                <scale
+                    android:duration="50"
+                    android:fromXScale="1"
+                    android:fromYScale="1"
+                    android:pivotX="50%"
+                    android:pivotY="50%"
+                    android:toXScale="0.9"
+                    android:toYScale="0.9" >
+                </scale>
+            </set>
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".French"
+            android:label="@string/title_activity_french" >
+        </activity>
+        <activity
+            android:name=".English"
+            android:label="@string/title_activity_english" >
+        </activity>
+    </application>
+
+</manifest>
